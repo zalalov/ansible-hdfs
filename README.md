@@ -17,6 +17,10 @@ An Ansible role for installing [Cloudera HDFS](http://www.cloudera.com/content/c
 - `hdfs_namenode_host` - A list of properties for the NameNode `hdfs-site.xml` configuration file.
 - `hdfs_datanode_properties` - A list of properties for the DataNode `hdfs-site.xml` configuration file.
 
+## Dependencies
+
+Requires role azavea.java
+
 ## Example Playbook
 
     - hosts: servers
